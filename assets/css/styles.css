@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+    background-color: rgb(15, 111, 15);
+    color: rgb(255, 255, 255);
+}
+
+.titulo{
+    text-align: center;
+    background-color: #000;
+    padding: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carta{
+    width: 150px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas{
+    height: 250px;
+}
+
+.botones{
+    margin: 10px;
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
