@@ -16,15 +16,15 @@
     <div class="row mt-2">
         <div id="botones" class="col text-center">
             <button id="btnNuevo" class="botones btn btn-danger">Nuevo Juego</button>
-            <button id="btnPedir" class="botones btn btn-success">Pedir carta</button>
-            <button id="btnDetener" class="botones btn btn-primary">Detener</button>
+            <button id="btnPedir" disabled="'disabled" class="botones btn btn-success">Pedir carta</button>
+            <button id="btnDetener" disabled="'disabled" class="botones btn btn-primary">Detener</button>
         </div>
     </div>
 
     <div class="row container">
         <div class="col">
             <h1>Jugador - <small>0</small></h1>
-            <div id="jugador-cartas">
+            <div id="jugador-cartas" class="divCartas">
                 <!-- <img class="carta" src="assets/cartas/10S.png" alt="Carta">
                 <img class="carta" src="assets/cartas/10S.png" alt="Carta">
                 <img class="carta" src="assets/cartas/10S.png" alt="Carta">
@@ -36,7 +36,7 @@
     <div class="row container mt-2">
         <div class="col">
             <h1>Computadora - <small>0</small></h1>
-            <div id="computadora-cartas">
+            <div id="computadora-cartas" class="divCartas">
                 <!-- <img class="carta" src="assets/cartas/10S.png" alt="Carta">
                 <img class="carta" src="assets/cartas/10S.png" alt="Carta">
                 <img class="carta" src="assets/cartas/10S.png" alt="Carta">
@@ -51,5 +51,7 @@
 
     <script src="assets/js/underscore.js"></script>
     <script src="assets/js/juego.js"></script>
+
+
 </body>
 </html>
