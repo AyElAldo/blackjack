@@ -161,13 +161,20 @@
     
     })
     
-    
+    // Funcion para quitar graficamente las cartas
+    const limpiarCartas = () => {
+
+        divCartasJugadores.forEach(elem => elem.innerText = '');
+
+    }
+
     // Nuevo Juego
     btnNuevo.addEventListener('click', () => {
     
         btnDetener.disabled = false;
         btnPedir.disabled = false;
         
+        limpiarCartas();        
         iniciarJuego();
     
     })
